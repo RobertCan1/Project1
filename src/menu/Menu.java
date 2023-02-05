@@ -87,7 +87,7 @@ public class Menu {
 	
 	
 	public static void delete() throws InvalidPathException {
-		System.out.println("Enter file location");
+		System.out.println("Enter file name");
 		String input = sc.nextLine();
 		String Path = repository + "/" + input;
 		Path path;
